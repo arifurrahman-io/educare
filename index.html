@@ -13,49 +13,42 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/f91b28321f.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
-            <div>
-                <a class="navbar-brand fw-bold fs-1" href="#">Edu Care</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <a class="navbar-brand fs-2" href="#">Edu <span class="text-warning">Care</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav px-5">
                     <li class="nav-item">
-                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Course</a>
+                        <a class="nav-link" href="#">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Deals</a>
+                        <a class="nav-link" href="#">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Success</a>
+                        <a class="nav-link">Success</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">About</a>
+                        <a class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="#">Register</a>
+                        <a class="nav-link">Register</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <button class="btn btn-outline-info" type="submit">Register</button>
-            </div>
-
-            <div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
         </div>
-
     </nav>
 
     <main>
@@ -64,7 +57,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                     <img src="./images/cover/cover-1.png" class="d-block w-100" alt="Carousel Image">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
                         <h2 class="fw-bold fs-1 ">First slide label</h2>
                         <p class="fs-4">Some representative placeholder content for the first slide.</p>
                         <a href="" class="btn btn-primary">Get Started</a>
@@ -72,7 +65,7 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="Carousel Image">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
                         <h2 class="fw-bold fs-1">First slide label</h2>
                         <p class="fs-4">Some representative placeholder content for the first slide.</p>
                         <a href="" class="btn btn-primary">Get Started</a>
@@ -80,7 +73,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="Carousel Image">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
                         <h2 class="fw-bold fs-1">First slide label</h2>
                         <p class="fs-4">Some representative placeholder content for the first slide.</p>
                         <a href="" class="btn btn-primary">Get Started</a>
@@ -100,7 +93,7 @@
         </div>
 
 
-        <div class="py-5 container">
+        <div class="py-5 my-5 container">
             <div class="">
                 <h2 class="text-center">Discover Our Popular <br> Courses</h2>
                 <p class="text-center">It is a long established fact that a reader will be distracted by the
@@ -110,7 +103,7 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-1.png" alt="">
@@ -125,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-2.png" alt="">
@@ -140,7 +133,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-3.png" alt="">
@@ -155,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-4.png" alt="">
@@ -171,7 +164,7 @@
                 </div>
 
 
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-5.png" alt="">
@@ -187,7 +180,7 @@
                 </div>
 
 
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="d-md-flex align-items-center shadow-sm mb-5 bg-body rounded">
                         <div>
                             <img class="w-100" src="./images/course/course-6.png" alt="">
@@ -208,7 +201,7 @@
         </div>
 
 
-        <div class="container bg-success text-dark bg-opacity-10 rounded">
+        <div class="container my-5 py-5 rounded">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <img src="./images/working.png" class="mw-100" alt="Working">
@@ -306,7 +299,7 @@
             </div>
         </div>
 
-        <div class="container my-5">
+        <div class="container py-5 my-5">
             <div>
                 <h2>Meet Our Successfull Students</h2>
                 <p>It is a long established fact that a reader will be distracted by the
@@ -357,11 +350,205 @@
             <div class="d-flex justify-content-center my-3">
                 <a href="" class="btn btn-primary">View All</a>
             </div>
+        </div>
 
+        <div class="container py-5 my-5">
+
+            <div>
+                <h2 class="text-center">Some Students Feedback</h2>
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when
+                    looking at its layout.</p>
+            </div>
+
+            <div class="row justify-content-around">
+                <div class="col-xs-12 col-md-5 col-lg-5 border rounded p-3 m-2">
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <img class="w-100" src="./images/comma.png" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star-half-stroke text-info"></i>
+                        </div>
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected
+                        humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem.</p>
+
+                    <div class="d-flex justify-content-start align-items-center">
+                        <div class="me-2">
+                            <img class="w-100" src="./images/student/student-5.png" alt="">
+                        </div>
+
+                        <div>
+                            <h5 class="m-0">Awlad Hossain</h5>
+                            <p class="m-0">UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-5 col-lg-5 border rounded p-3 m-2">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img class="w-100" src="./images/comma.png" alt="">
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star text-info"></i>
+                            <i class="fa-solid fa-star-half-stroke text-info"></i>
+                        </div>
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected
+                        humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem.</p>
+
+                    <div class="d-flex justify-content-start align-items-center">
+                        <div class="me-2">
+                            <img class="w-100" src="./images/student/student-6.png" alt="">
+                        </div>
+
+                        <div>
+                            <h5 class="m-0">Awlad Hossain</h5>
+                            <p class="m-0">UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container py-5 my-5">
+
+            <div>
+                <h2 class="text-center">Frequently Asked Questions</h2>
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+            </div>
+
+            <div class="row d-flex">
+                <div class="col-md-5 col-xs-12">
+                    <img class="w-100" src="./images/faq.jpg" alt="">
+                </div>
+
+                <div class="col-md-7 col-xs-12 accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would
+                                look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5 my-5 d-none d-lg-block">
+            <div>
+                <h2 class="text-center">Trusted by over 800+ companies</h2>
+            </div>
+
+            <div class="row py-3 d-flex align-items-center">
+                <div class="col-lg-2">
+                    <img src="./images/company/company-1.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/company/company-2.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/company/company-3.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/company/company-4.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/company/company-5.png" alt="">
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/company/company-6.png" alt="">
+                </div>
+            </div>
 
         </div>
 
     </main>
+
+    <footer class="bg-dark py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 my-2">
+                    <h2 class="text-light">Important Links</h2>
+                    <br>
+                    <p><a class="link fs-4 text-light" href="">About</a></p>
+                    <p><a class="link fs-4 text-light" href="">Privacy Policy</a></p>
+                    <p><a class="link fs-4 text-light" href="">Terms of Conditions</a></p>
+                </div>
+                <div class="col-xs-12 col-md-4 my-2">
+                    <h2 class="text-light">Contact</h2>
+                    <br>
+                    <p class="fs-4 text-light">76/B, Malibag, Dhaka</p>
+                    <p class="fs-4 text-light">+8801684516151</p>
+                    <p class="fs-4 text-light">educare@gmail.com</p>
+                </div>
+                <div class="col-xs-12 col-md-4 my-2">
+                    <h2 class="text-light">Follow Us</h2>
+                    <br>
+                    <i class="fa-brands fa-facebook-f text-white fs-3 me-3"></i>
+                    <i class="fa-brands fa-twitter text-white fs-3 me-3"></i>
+                    <i class="fa-brands fa-instagram text-white fs-3 me-3"></i>
+                    <i class="fa-brands fa-youtube text-white fs-3 me-3"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

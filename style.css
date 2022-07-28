@@ -4,3 +4,7 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
 }
+
+.link {
+    text-decoration: none;
+}
